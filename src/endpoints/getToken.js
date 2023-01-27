@@ -2,6 +2,7 @@ const endPoint = process.env.REACT_APP_TOKEN_ENDPOINT;
 const room_id = process.env.REACT_APP_ROOM_ID;
 
 console.log(endPoint,room_id)
+console.log(REACT_APP_ROOM_ID);
 
 const getToken = async (user_id , user_role) => {
   console.log(user_id)
